@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load main_data.csv
-main_data = pd.read_csv("main_data.csv")
+main_data = pd.read_csv("./dashboard/main_data.csv")
 
 with st.sidebar:
     # Menambahkan logo perusahaan
